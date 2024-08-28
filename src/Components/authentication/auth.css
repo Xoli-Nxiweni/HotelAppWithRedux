@@ -1,0 +1,233 @@
+/* .auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .auth-box {
+    display: flex;
+    width: 80%;
+    max-width: 900px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .auth-form, .auth-info {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .auth-form h1, .auth-info h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .auth-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .google-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #4285F4;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .google-btn:hover {
+    background: #357ae8;
+  }
+  
+  .divider {
+    text-align: center;
+    margin: 15px 0;
+    color: #888;
+  }
+  
+  input[type="text"], input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .submit-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #28a745;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background: #218838;
+  }
+  
+  .toggle-link {
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+  }
+  
+  .toggle-link:hover {
+    color: #0056b3;
+  }
+  
+  .auth-info {
+    background-image: url('/public/3c77e519-3fb4-4fc5-9391-92a6701b50c6.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .auth-info h2 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .auth-info p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .auth-box.signin .auth-form {
+    order: 1;
+  }
+  
+  .auth-box.register .auth-form {
+    order: 2;
+  }
+   */
+
+   /* auth.css */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .auth-box {
+    display: flex;
+    width: 80%;
+    max-width: 900px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .auth-form, .auth-info {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .auth-form h1, .auth-info h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .auth-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .google-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #4285F4;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  
+  .google-btn:hover {
+    background: #357ae8;
+  }
+  
+  .divider {
+    text-align: center;
+    margin: 15px 0;
+    color: #888;
+  }
+  
+  input[type="text"], input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .submit-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #28a745;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  
+  .submit-btn:hover {
+    background: #218838;
+  }
+  
+  .toggle-link {
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  .toggle-link:hover {
+    color: #0056b3;
+  }
+  
+  .auth-info {
+    background-image: url('/public/3c77e519-3fb4-4fc5-9391-92a6701b50c6.png');
+    background-position: contain;
+    background-size: cover;
+  }
+  
+  .auth-info h2 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .auth-info p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .auth-box.signin .auth-form {
+    order: 1;
+  }
+  
+  .auth-box.register .auth-form {
+    order: 2;
+  }
+  

@@ -1,0 +1,130 @@
+.myNav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5%;
+    align-items: center;
+    box-shadow: 0px 3px 5px 0 #0000003e;
+    z-index: 9;
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+  
+  .myNav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .myNav ul li a {
+    text-decoration: none;
+    color: #ffffff87;
+    transition: all 0.4s linear;
+  }
+  
+  .myNav ul li a:hover {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .myNav ul li a.active {
+    color: #ffffff;
+  }
+  
+  .logo {
+    border-radius: 50%;
+  }
+  
+  .logo svg {
+    font-size: 4em;
+    color: #fff;
+  }
+  
+  .userProfile {
+    border-radius: 50%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    transition: all .3s linear;
+  }
+  
+  .userProfile svg {
+    font-size: 1.2em;
+    color: #fff;
+  }
+  
+  .authBtn {
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    background: #dadada;
+    transition: all 0.2s linear;
+  }
+  
+  .authBtn:hover {
+    background: #ffffff;
+  }
+  
+  /* Responsive Styles */
+  .hamburger {
+    display: none;
+    font-size: 2em;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .drawer {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 250px;
+    height: 100%;
+    background: rgb(63, 102, 130);
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    transition: right 0.3s ease;
+    padding: 20px;
+    z-index: 10;
+  }
+  
+  .drawer.open {
+    right: 0; 
+  }
+  
+  .drawer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .drawer ul li a {
+    color: #ffffff87;
+    text-decoration: none;
+    transition: all 0.4s linear;
+  }
+  
+  .drawer ul li a:hover {
+    color: #ffffff;
+  }
+  
+  .closeDrawer {
+    align-self: flex-end;
+    font-size: 2em;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .myNav ul {
+      display: none;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  }
+  
